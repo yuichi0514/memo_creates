@@ -30,6 +30,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~/plugins/firebase',
   ],
   /*
   ** Nuxt.js dev-modules
@@ -41,6 +42,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/dotenv',
   ],
   /*
   ** vuetify module configuration

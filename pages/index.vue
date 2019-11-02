@@ -82,7 +82,7 @@
 <script>
 import Logo from '~/components/Logo.vue'
 import VuetifyLogo from '~/components/VuetifyLogo.vue'
-
+import firebase from "~/plugins/firebase.js"
 export default {
   components: {
     Logo,
